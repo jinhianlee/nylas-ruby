@@ -15,6 +15,7 @@ module Inbox
     parameter :status
     parameter :master_event_id
     parameter :original_start_time
+    parameter :busy
 
     def as_json(options = {})
       hash = super(options)
